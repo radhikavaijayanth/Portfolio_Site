@@ -27,4 +27,7 @@
   # Extra Notes
      1. font-awesome reference: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
      2. animate.CSS reference: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css  
+  # Features Added
+     1. Added modal for each project.
+     2. Created some CSS text animations.
       
