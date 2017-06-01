@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Including CSS files and the js files -->
     <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,33 +14,34 @@
     <title>My Portfolio</title>
 </head>
 <body>
+    <!-- Main container for the elements -->
     <div class="container">
+        <!-- Definition for logo,title and the subtitle -->
         <div class="row">
             <header>
                 <div class="col-md-6 col-sm-4 col-xs-4">
                     <img class="img-responsive page-logo" src="images/rsz_rads_logo.png" alt="Website Logo">
                 </div>
-
                 <div class="col-md-6 col-sm-8 col-sm-8 text-right text-uppercase">
                     <h1 class="animated infinite pulse">Radhika Suresh</h1>
                     <h4>Project Portfolio</h4>
                 </div>
             </header>
         </div>
-
+        <!-- Definition for the central cover photo of the page -->
         <div class="row">
             <div class="col-md-12">
             <hr>
                 <img class="img-responsive" src="images/page_banner.jpg" alt="cover photo">
             </div>
         </div>
-
+        <!-- Definition for the main title of the project section -->
         <div class="row">
             <div class="col-md-12">
                 <h2 class="animated infinite zoomIn">Featured Works</h2>
             </div>
         </div>
-
+        <!-- Definition for the project images, titles and links to their github repos -->
         <div class="row text-center">
             <div class="col-md-4 col-sm-4">
                 <img class="portfolio-photo img-responsive" src="images/movie_pic.jpg" data-toggle="modal" data-target="#project1" alt="Movie Website Icon">
@@ -59,7 +60,7 @@
             </div>
             <div class="col-md-4 col-sm-4">
                 <img class="portfolio-photo img-responsive" src="images/db_shot.jpg" data-toggle="modal" data-target="#project4" alt="Tournament Database Icon">
-                <h3>Tournament Database</h3>
+                <h3>Tournament</h3>
                 <p><a href="https://github.com/radhikavaijayanth/Udacity_Project_1">Navigate to Github Repository</a></p>
             </div>
             <div class="col-md-4 col-sm-4">
@@ -74,16 +75,20 @@
             </div>
         </div>
     </div>
+    <!-- Definition for the page footer which has my linkedin URL -->
     <footer class="footer">
         <div class="container">
             <hr>
-            <p class="text-muted text-center"><a href="https://www.linkedin.com/in/radhika-suresh-2b573277/"><i class="fa fa-mobile" aria-hidden="true"></i>
+            <p class="text-muted text-center">
+                <a href="https://www.linkedin.com/in/radhika-suresh-2b573277/">Linkedin URL</a>
+                <i class="fa fa-mobile" aria-hidden="true"></i>
                 <i class="fa fa-laptop" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin URL</a></p>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </p>
         </div>
     </footer>
     <!-- Modals giving description for each project -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="movieModal" aria-hidden="true">
+    <div class="modal fade project1" id="project1" tabindex="-1" role="dialog" aria-labelledby="movieModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -92,7 +97,7 @@
                 <div class="modal-body">
                     <img class="portfolio-photo img-responsive" src="images/movie_pic.jpg" data-toggle="modal" data-target="#project1" alt="Movie Website Icon">
                     <hr>
-                    <p>This was my first project in this course. I learnt a lot about Python programming fundamentals.</p>
+                    This was my first project in this course. I learnt a lot about Python programming fundamentals.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -100,7 +105,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal fade project2" id="project2" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -109,7 +114,7 @@
                 <div class="modal-body">
                     <img class="portfolio-photo img-responsive" src="images/blog_picture.jpg" data-toggle="modal" data-target="#project2" alt="Multi User Blog Icon">
                     <hr>
-                    <p>This project is yet to be done.</p>
+                    This project is yet to be done.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -117,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal" aria-hidden="true">
+    <div class="modal fade project3" id="project3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -126,7 +131,7 @@
                 <div class="modal-body">
                     <img class="portfolio-photo img-responsive" src="images/blog_picture.jpg" data-toggle="modal" data-target="#project3" alt="Build a Portfolio Site Icon">
                     <hr>
-                    <p>In this project I created my portfolio for udacity fulk stack course.</p>
+                    In this project I created my portfolio for udacity full stack course.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -134,16 +139,16 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="tournamentModal" aria-hidden="true">
+    <div class="modal fade project4" id="project4" tabindex="-1" role="dialog" aria-labelledby="tournamentModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="tournamentModal">Tournament Database</h4>
+                    <h4 class="modal-title" id="tournamentModal">Tournament</h4>
                 </div>
                 <div class="modal-body">
                     <img class="portfolio-photo img-responsive" src="images/db_shot.jpg" data-toggle="modal" data-target="#project4" alt="Tournament Database Icon">
                     <hr>
-                    <p>This project is yet to be done</p>
+                    This project is yet to be done
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -151,7 +156,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="catalogModal" aria-hidden="true">
+    <div class="modal fade project5" id="project5" tabindex="-1" role="dialog" aria-labelledby="catalogModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -160,7 +165,7 @@
                 <div class="modal-body">
                     <img class="portfolio-photo img-responsive" src="images/catalog_pic.png" data-toggle="modal" data-target="#project5" alt="Item Catalog Icon">
                     <hr>
-                    <p>This project is yet to be done</p>
+                    This project is yet to be done
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -168,7 +173,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="neighbourhoodModal" aria-hidden="true">
+    <div class="modal fade project6" id="project6" tabindex="-1" role="dialog" aria-labelledby="neighbourhoodModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -177,7 +182,7 @@
                 <div class="modal-body">
                     <img class="portfolio-photo img-responsive" src="images/map_photo.jpg" data-toggle="modal" data-target="#project6" alt="Neighbourhood Map Icon">
                     <hr>
-                    <p>This project is yet to be done</p>
+                    This project is yet to be done
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
